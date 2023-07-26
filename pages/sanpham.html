@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/sanpham.css">
+        <script src="https://kit.fontawesome.com/346a3c32fb.js" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+     <div class="container">
+      
+        <div class="logo"> <img src="../picture/logoo.jpg" > </div>
+
+     <div class="menu">
+        <ul >
+          <li><a href="../index.html">TRANG CHỦ</a></li>
+          <li><a href="./gioithieu.html">GIỚi THIỆU</a></li>
+          <li><a href="./dichvu.html">DỊCH VỤ</a></li>
+          <li><a href="./lienhe.html">LIÊN HỆ</a></li>
+          <li class="cart">
+            <label for="cart-toggle"><i class="fa-sharp fa-solid fa-cart-shopping"st></i></label>
+            <input type="checkbox" name="cart" id="cart-toggle" style="display:none">
+            <div class="cart-container">
+              <h2>GIỎ HÀNG</h2>
+              <div class="list-item">
+                <p id="no-cart">CHƯA CÓ SẢN PHẨM NÀO</p>
+              </div>
+              <div class="list-action" onclick="removeAll()">
+                <p style="display: none">XÓA HẾT</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+     </div>    
+     <hr> 
+           
+                                          <!-- sản phẩm   -->
+     <section class="san-pham">
+        <h2>SẢN PHẨM </h2>
+        <ul class="san-pham-list clearfix">
+          <li>
+            <p class="san-pham-image"><img src="../picture/20200729_042734_540387_che-do-an-kieng-.max-800x800.png" alt="Smart Swatch Editions"></p>
+            <div class="inner">
+                <h5>Ngũ Cốc Tổng Hợp 500gram </h5>             
+                <p class="info">290.000vnd/Hộp.</p>
+              <div onclick="addCart('ngucoc')" class="button"> Thêm Vào Giỏ Hàng </a>
+            </div>
+          </li>
+    
+          <li>
+            <p class="san-pham-image"><img src="../picture/23-1200x676.jpg" alt="Smart Swatch Editions"></p>
+            <div class="inner">
+                <h5>Hạt Điều Rang Giòn 500gram   </h5>             
+                <p class="info">190.000vnd/Hộp.</p>
+              <div onclick="addCart('hatdieurang')" class="button"> Thêm Vào Giỏ Hàng</a>
+            </div>
+          </li>
+    
+          <li>
+            <p class="san-pham-image"><img src="../picture/macca.jpg" alt="Smart Swatch Editions"></p>
+            <div class="inner">
+                <h5>Hạt Macca Rang giòn 500gram</h5>             
+                <p class="info">350.000vnd/Hộp.</p>
+              <div onclick="addCart('hatmaca')" class="button"> Thêm Vào Giỏ Hàng</a>
+            </div>
+          </li>
+
+          <li>
+            <p class="san-pham-image"><img src="../picture/càphee.jpg" alt="Smart Swatch Editions"></p>
+            <div class="inner">
+                <h5>Cà Phê Rang Buôn Mê Hộp 1kg </h5>             
+                <p class="info">180.000vnd/Hộp.</p>
+              <div onclick="addCart('capherang')" class="button"> Thêm Vào Giỏ Hàng</a>
+            </div>
+          </li>
+    
+          <li>
+            <p class="san-pham-image"><img src="../picture/bún ngũ cốcc.jpg" alt="Smart Swatch Editions"></p>
+            <div class="inner">
+                <h5>Bún Ngũ Cốc 500gram</h5>             
+                <p class="info">90.000vnd/Bì.</p>
+              <div onclick="addCart('bunngucoc')" class="button"> Thêm Vào Giỏ Hàng</a>
+            </div>
+          </li>
+    
+          <li>
+            <p class="san-pham-image"><img src="../picture/matong.jpg" alt="Smart Swatch Editions"></p>
+            <div class="inner">
+                <h5>Mật Ong Rừng Nguyên Chất 500ml</h5>             
+                <p class="info">250.000vnd/Hộp.</p>
+              <div onclick="addCart('matongrung')" class="button"> Thêm Vào Giỏ Hàng</a> 
+            </div>
+          </li>
+        </ul>
+      </section>
+      <script src="https://kit.fontawesome.com/346a3c32fb.js" crossorigin="anonymous"></script>
+      <script src="../data.js"></script>
+      <script src="../cart.js"></script>
+    </body>
+</html>

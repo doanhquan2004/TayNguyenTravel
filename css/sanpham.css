@@ -244,6 +244,17 @@ body {
 	.san-pham .san-pham-list li .inner a:hover {
 		font-size: 15px;
 	}
+	.san-pham .san-pham-list li .inner .button {
+		border-radius: 5px;
+		height: 56px;
+		line-height: 56px;
+		width: 200px;
+		height: 50px;
+		text-align: center;
+		margin-left: 30px;
+		margin-top: 13px;
+		font-weight: 600;
+	}
 }
 /* 1000 */
 @media screen and (max-width: 1000px) {
@@ -257,7 +268,9 @@ body {
 		margin-left: 2cm;
 		margin-top: 1.8cm;
 	}
-
+    hr { 
+		max-width: auto ;
+	}
 	/* menu  */
 	.container .menu {
 		margin-top: -2.3cm;
@@ -337,7 +350,155 @@ body {
 	.san-pham .san-pham-list li .inner a:hover {
 		font-size: 15px;
 	}
+
+	.san-pham .san-pham-list li .inner .button {
+		border-radius: 5px;
+		height: 56px;
+		line-height: 56px;
+		width: 200px;
+		height: 50px;
+		text-align: center;
+		margin-left: 0px;
+		margin-top: 13px;
+		font-weight: 600;
+	}
+	.san-pham .san-pham-list li .inner a:hover {
+		background-color: #3bc1f6;
+		color: rgb(0, 0, 0);
+		font-size: 18px;
+		font-family: 'Courier New', Courier, monospace;
+	}
+
+
 }
+
+
+
+/* 800 */
+@media screen and (max-width: 800px) {
+	/* container  */
+	.container .logo img {
+		border-radius: 10px;
+		width: 50px;
+		height: 50px;
+		margin-left: 50%;
+		margin-top: 0.1cm;
+	}
+      .hr { 
+		background-color: #000;
+		color: #000;
+	}
+	/* menu  */
+	.container .menu { 
+		
+		margin-top: 0.5cm;
+		background: #000000;
+	}
+	.container .menu ul {
+		text-align: center;
+		padding-top: -2cm;
+		padding-left: 4cm;
+	}
+	.container .menu ul li {
+		display: inline;
+		font-size: 15px;
+		margin-right: 50px;
+	}
+	.container .menu ul li a {
+		color: rgb(255, 255, 255);
+		font-weight: 500;
+		text-decoration: none;
+		transition: 0.3s color;
+	}
+	.container .menu ul li a:hover {
+		color: rgb(255, 255, 255);
+		font-weight: 600;
+	}
+
+	/* sản phẩm  */
+	.san-pham {
+		margin: 30px auto;
+		width: 900px;
+	}
+	.san-pham .san-pham-image img {
+		width: 240px;
+		height: 200px;
+	}
+	.san-pham h2 {
+		color: #ffffff;
+		font-size: 38px;
+		margin-bottom: 17px;
+		text-align: center;
+	}
+
+	.san-pham .san-pham-list li {
+		background-color: #000000;
+		float: left;
+		margin-right: 30px;
+		min-height: 400px;
+		width: 240px;
+		margin-bottom: 30px;
+		border-style: solid;
+		border-width: 2.8px 2.8px 2.8px 2.8px;
+		margin-left: 22px;
+	}
+	.san-pham .san-pham-list li:nth-child(3n) {
+		margin-right: 0;
+	}
+	.san-pham .san-pham-list li .inner {
+		padding: 12px 15px;
+	}
+	.san-pham .san-pham-list li h5 {
+		font-size: 15px;
+		margin-bottom: 3px;
+	}
+	.san-pham .san-pham-list li p {
+		text-align: center;
+	}
+
+	.san-pham .san-pham-list li .inner a {
+		margin-left: 15px;
+		border-radius: 5px;
+		height: 56px;
+		line-height: 50px;
+		width: 180px;
+		height: 45px;
+		font-weight: 550;
+	}
+	.san-pham .san-pham-list li .inner a:hover {
+		font-size: 15px;
+	}
+
+	.san-pham .san-pham-list li .inner .button {
+		border-radius: 5px;
+		height: 56px;
+		line-height: 56px;
+		width: 200px;
+		height: 50px;
+		text-align: center;
+		margin-left: 0px;
+		margin-top: 13px;
+		font-weight: 600;
+	}
+	.san-pham .san-pham-list li .inner a:hover {
+		background-color: #3bc1f6;
+		color: rgb(0, 0, 0);
+		font-size: 18px;
+		font-family: 'Courier New', Courier, monospace;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 /* cart */
 .cart {

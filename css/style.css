@@ -267,6 +267,11 @@ a:hover {
 	}
 }
 
+@media screen and (max-width: 1290px) { 
+    .tong {
+		background-size: 130%;
+	}
+ } 
 /* 1200 */
 @media screen and (max-width: 1200px) {
 	.tong {
